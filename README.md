@@ -65,9 +65,21 @@ Based on the Data condition , certain Manufacturer and Model may be removed due 
 
 Cleaned data to have numbers for Text columns by mapping numbers to categories and cleaning up age by replacing text parts.
 
+### Created Model using the Classifier as it supports Categorical Values,
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+Created Multiple features in Several iterations and identified accuracy with 0.9874
+carfeature_limtd_sets = [
+    [col for col in X.columns if 'odometer' in col or 'model' in col or'year' in col or 'cylinders' in col or 'condition' in col],
+    [col for col in X.columns if 'odometer' in col or 'model' in col or 'year' in col or 'condition' in col ],
+    [col for col in X.columns if 'odometer' in col or 'region' in col or 'manufacturer' in col or 'model' in col or 'year' in col or 'condition' in col ], # Example: all region/manufacturer features
+    [col for col in X.columns if 'id' in col or 'odometer' in col or 'region' in col or 'manufacturer' in col or 'model' in col or 'year' in col or 'condition' in col or 'cylinders' in col or 'fuel' in col or 'title_status' in col or 'transmission' in col or 'drive' in col or 'size' in col or 'type'  in col or 'state'in col or 'paint'in col]
+]
+
 ## Findings 3: After trying several plots and combinations , 
 
-<img width="785" height="790" alt="image" src="TYPE PLOT PATH FROM GITHUB" />
+Having the odometer value may probably provide the closest value to real values reported.
+And hence the projected price with the odometer may provide the probable expected value to customers
 
 
 ## Next Steps
