@@ -50,7 +50,7 @@ plt.show()
  
 <table><tr><td>
     <u>Fig 1:Hist PLOT FOR PRICE BY REGION</u></td><td></u>Fig 2:RelPlot of Price for Model Manufacturer ,Model and Year</u>  </td></tr>
-<tr><td><img width="300" height="300"  alt="Seaborn jointplot againt temperature vs accepted" src="TYPE GIT PATH OF IMAGE" /></td> <td> <img width="300" height="300" alt="image" src="TYPE GIT PATH FPR IMAGE" />
+<tr><td><img width="300" height="300"  alt="Seaborn jointplot againt temperature vs accepted" src="https://github.com/sganesan64/Module11_CarPrice/blob/main/images/His%20plot%20-price%20per%20Region.JPG" /></td> <td> <img width="300" height="300" alt="image" src="https://github.com/sganesan64/Module11_CarPrice/blob/main/images/RelPlot%20-Price%20per%20Manufacturer%20for%20Model%20and%20year.JPG" />
     </td></tr></table>
 
 ## Findings 1: 
